@@ -77,3 +77,11 @@ void House::setFloors(int numfloors) {
 	floors = numfloors;
 }
 
+/*
+ * Class
+ * 		instance data and functions are hidden from the user
+ *
+ * 				private
+ * 				public
+ * 				protected
+ */

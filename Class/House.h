@@ -11,6 +11,12 @@
 using namespace std;
 
 class House {
+		/**
+		 * private members
+		 *
+		 * of a class are accessible only from within
+		 * other members of the same class (or from their "friends")
+		 */
 	private:
 		string houseColor;
 		int numBathrooms;
@@ -19,6 +25,11 @@ class House {
 		double tsquareFeet;
 		int floors;
 
+		/*
+		 * public members
+		 *
+		 * are accessible from anywhere where the object is visible.
+		 */
 	public:
 		//constructors
 		House();
@@ -53,5 +64,18 @@ class House {
  * 			constructors
  *
  * 			functions
+ *
+ *
+ * 	protected members
+ *
+ * 	are accessible from other members of the same class (or from their "friends"),
+ * 	but also from members of their derived classes.
+ *
+ *
+ *Function Behaviors
+ *			Bug crawl
+ *			grasshopper hops to move
+ *			ladybug flies when it moves
+ *
  *
  */
